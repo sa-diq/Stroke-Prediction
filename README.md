@@ -43,6 +43,7 @@ The best way to understand the structure of a data is through visualization. Thi
 ![](age_agl_scatter.png)
 <br>
 The correlation between variables was also checked using the correlation plot, and it was discovered that BMI is the least correlated with stroke, and age is the most correlated to stroke among the numerical features.
+
 ![](heatmap.png)
 
 ## DATA PRE-PROCESSING
