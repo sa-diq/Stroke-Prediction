@@ -10,6 +10,7 @@ This project aims to investigate the effectiveness of four ML algorithms for the
 
 ## DATASET & SOURCE
 The data used for this project was gotten from Kaggle via this [link](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset). The dataset consists of 5110 observations and 12 features that includes a binary target variable. That is, 11 independent variables will be used to predict the dependent variable. The figure below shows the first five observations of the data.
+![](data_head.png)
 
 ## METHODOLOGY
 The research method followed in this project is illustrated in the figure below.
