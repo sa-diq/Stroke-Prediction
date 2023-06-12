@@ -26,8 +26,7 @@ The best way to understand the structure of a data is through visualization. Thi
   - The average glucose level and BMI distribution is right skewed.
   - There are missing values in the BMI column.
   - The boxplot of the average glucose level shows there are outliers. The outliers in the boxplot are not really outliers, the values are real values, and they depict patients with diabetes.
-  - In terms of categorical features (non-numeric), we have more female patients than males, less patients with hypertension than those that have, less patients with heart disease than those that have. All the categorical features distribution is shown in the figure below.
-<br>
+  - In terms of categorical features (non-numeric), we have more female patients than males, less patients with hypertension than those that have, less patients with heart disease than those that have. All the categorical features distribution is shown in the figure below.<br>
 ![](tv_distribution.png) ![](bmi_box.png)
 ![](uni_cat.png)
 
