@@ -69,6 +69,7 @@ In this experiment, four machine learning (ML) algorithms, namely Logistic Regre
 * Precision quantifies the accuracy of positive predictions by considering the proportion of true positive predictions among the total number of positive predictions made by the models. It aims to minimize false positives.<br>
 * F1-score combines both precision and recall into a single metric. It provides a balanced assessment of the models' performance by considering both false positives and false negatives.<br>
 * AUC, or the area under the receiver operating characteristic (ROC) curve, is a measure of the model's ability to distinguish between positive and negative instances. It captures the trade-off between true positive rate and false positive rate across various probability thresholds. A higher AUC indicates better discrimination performance of the models.<br>
+<br>
 By utilizing these evaluation metrics, a comprehensive analysis of the ML algorithms' performance can be conducted, enabling the selection of the most effective algorithm for the given task.
 
 ## RESULTS
