@@ -27,6 +27,7 @@ The best way to understand the structure of a data is through visualization. Thi
   - There are missing values in the BMI column.
   - The boxplot of the average glucose level shows there are outliers. The outliers in the boxplot are not really outliers, the values are real values, and they depict patients with diabetes.
   - In terms of categorical features (non-numeric), we have more female patients than males, less patients with hypertension than those that have, less patients with heart disease than those that have. All the categorical features distribution is shown in the figure below.
+<br>
 ![](tv_distribution.png) ![](bmi_box.png)
 ![](uni_cat.png)
 
@@ -58,6 +59,7 @@ These actions increased the number of features from 11 to 23. To ensure the feat
 Furthermore, the data was split into training and test sets in a 70:30 ratio. This division allows for evaluating the model's performance on unseen data by training it on the larger training set and validating it on the smaller test set.
 ### Addressing Class Imbalance
 To address the class imbalance, the Synthetic Minority Over-sampling Technique (SMOTE) was applied. This technique was introduced by (Chawla, et al., 2002). The technique works by generating synthetic data using the k-nearest neighbour (Wijaya, 2020). Only the training data was oversampled as seen in the figure below. This is to avoid data leakage and to ensure that the model generalizes well to unseen data.
+<br>
 ![](smote1.png)
 ### Feature Selection
 To identify the most relevant features for training the models, the Recursive Feature Elimination (RFE) technique was applied using a random forest classifier. RFE selects important features by iteratively removing unimportant ones until the desired number is reached, enhancing model performance and interpretability, and reducing overfitting. The importance of each feature is determined by the model's feature importance scores, which can be obtained from models like Random Forest or other tree-based algorithms (Munir, et al., 2021). The top 10 features were selected as seen below. 
