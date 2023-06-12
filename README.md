@@ -17,7 +17,7 @@ The research method followed in this project is illustrated in the figure below.
 ![](methodology.png)
 <br>
 ## EXPLORATORY DATA ANALYSIS (EDA)
-The best way to understand the structure of a data is through visualization. This will help identify obvious errors, as well as better understand patterns within the data, detect outliers, find interesting relations among the variables. Two kinds of analysis were carried out on the features, univariate and multivariate analysis. Also, age, BMI, avergae glucose level were binned into groups for better understanding of the data.
+The best way to understand the structure of a data is through visualization. This will help identify obvious errors, as well as better understand patterns within the data, detect outliers, find interesting relations among the variables. Two kinds of analysis were carried out on the features, univariate and multivariate analysis. Also, age, BMI, average glucose level were binned into groups for better understanding of the data.
 ![](group_func.png)
 <br>
 * Univariate analysis was carried out on each feature in the dataset to understand the distribution of each feature. The findings achieved in this analysis are listed below:
